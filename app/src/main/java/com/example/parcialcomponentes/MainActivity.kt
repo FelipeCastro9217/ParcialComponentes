@@ -17,7 +17,6 @@ import androidx.compose.ui.graphics.Color
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.parcialcomponentes.model.Reserva
 import com.example.parcialcomponentes.ui.*
 import com.example.parcialcomponentes.ui.theme.ParcialComponentesTheme
 import com.example.parcialcomponentes.viewmodel.ReservaViewModel

@@ -25,3 +25,4 @@ class ReservaRepository(private val dao: ReservaDao) {
 
     suspend fun buscarPorCliente(nombre: String): List<Reserva> = dao.buscarPorCliente(nombre)
 }
+

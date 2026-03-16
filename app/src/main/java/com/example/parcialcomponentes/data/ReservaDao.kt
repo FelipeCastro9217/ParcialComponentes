@@ -24,3 +24,4 @@ interface ReservaDao {
     @Query("SELECT COUNT(*) FROM reservas WHERE numeroCancha = :cancha AND fecha = :fecha AND hora = :hora AND estado = 'Activa' AND id != :idExcluir")
     suspend fun existeConflicto(cancha: Int, fecha: String, hora: String, idExcluir: Int): Int
 }
+
